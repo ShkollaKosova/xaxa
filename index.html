@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Matës i Ndotjes Akustike</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Matës i Ndotjes Akustike</h1>
+
+    <div class="searchContainer">
+      <input
+        class="inputField"
+        id="cityField"
+        placeholder="Shkruaj emrin e qytetit..."
+        type="text"
+      />
+      <button class="searchBtn" id="searchBtn">Kërko</button>
+    </div>
+
+    <div id="weatherContainer">
+      <h2 id="cityName"></h2>
+
+      <div id="noiseBarContainer">
+        <div id="noiseBar"></div>
+      </div>
+      <p id="noiseValue"></p>
+    </div>
+
+    <p id="errorMessage"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
